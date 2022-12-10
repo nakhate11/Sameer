@@ -60,10 +60,10 @@ public class ShopCuponPage extends BaseClass {
 		submitCode.sendKeys("5OFF20");
 		saveButton.click();
 
-	//	Thread.sleep(5000);
+	
 		JavascriptExecutor js= (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();",lastButton);
-	//	lastButton.click();
+	
 		try {
 			closeShoping.click();
 		} catch (StaleElementReferenceException e) {

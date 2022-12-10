@@ -3,22 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="commentSoldTest.ShopTest">
+      <class name="commentSoldTest.LoginTest">
         <methods>
-          <include name="verifyShoping"/>
           <include name="launchBrowser"/>
+          <include name="verifyLoginPage"/>
           <include name="pageObjects"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- commentSoldTest.ShopTest -->
-      <class name="commentSoldTest.ShopCuponTest">
-        <methods>
-          <include name="verifyShoping"/>
-          <include name="launchBrowser"/>
-          <include name="pageObjects"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- commentSoldTest.ShopCuponTest -->
+      </class> <!-- commentSoldTest.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -21,7 +21,7 @@ public class LoginPage extends BaseClass {
 	}
 
 	public void loginMethod() {
-		username.sendKeys("abcdef@gmail.com");
+		username.sendKeys("sameer.nakhate11@gmail.com");
 		password.sendKeys("Abc@1234");
 		signButton.click();
 	}
